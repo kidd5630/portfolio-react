@@ -8,9 +8,9 @@ const Home = () => {
             <div className="job">
                Freelance Web Developer
             </div>
-            <img src={pic} width='400' />
+            <img src={pic} width='300' />
             <div className='quote'>
-                "With great power comes great responsibility" - Uncle Ben
+               .... I didn't claim to be a designer ...
             </div>
         </div>
     )
