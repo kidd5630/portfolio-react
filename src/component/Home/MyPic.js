@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './style.css'
+import './homeStyle.css'
 import pic1 from './pictures/1.jpg'
 import pic2 from './pictures/2.jpg'
 import pic3 from './pictures/3.jpg'

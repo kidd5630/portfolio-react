@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css'
+import './projectStyle.css'
 import pic1 from './pictures/1.png'
 import pic2 from './pictures/2.png'
 import pic3 from './pictures/3.png'

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import './style.css';
+import './headerStyle.css';
 import { useHistory } from "react-router-dom";
 import { styled, alpha } from '@mui/material/styles';
 import Button from '@mui/material/Button';

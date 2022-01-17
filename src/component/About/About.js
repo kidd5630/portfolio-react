@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css'
+import './aboutStyle.css'
 import LeftPic from './LeftPic'
 import RightPic from './RightPic'
 
@@ -21,8 +21,8 @@ const About = () => {
             <div className="professional">
                 <h2 className='title'>About Me Professionally</h2>
                 <div className='facts'>
-                    <p>I’ve moved around quite a bit as far as jobs and careers go. I was an AirCraft mechanic in the Air Force, I became an instructor and taught members of foreign Air Force Units how to take non-functional air craft and use the spare parts to create functional air crafts. I was in the nursing program when my first child was born and decided to dedicate more time to being with my daughter. </p>
-                    <p>t wasn’t until October of 2020 that I was introduced to the world of web development. I started doing some self paced coding classes online and was instantly drawn to how it feels like every aspect of our daily lives reside in these codes people write.  I wanted to learn more.  After some research I realized that this field is fluid and would not only keep my attention and keep me engaged but also provide a way that I would have the ability to be apart of my children’s lives rather than away working 2-3 jobs to provide the life I’ve envisioned for my family.</p>
+                    <p>I have moved around quite a bit as far as jobs and careers go. I was an AirCraft mechanic in the Air Force, I became an instructor and taught members of foreign Air Force Units how to take non-functional air craft and use the spare parts to create functional air crafts. I was in the nursing program when my first child was born and decided to dedicate more time to being with my daughter. </p>
+                    <p>It was not until October of 2020 that I was introduced to the world of web development. I started doing some self paced coding classes online and was instantly drawn to how it feels like every aspect of our daily lives reside in these codes people write.  I wanted to learn more.  After some research I realized that this field is fluid and would not only keep my attention and keep me engaged but also provide a way that I would have the ability to be apart of my children’s lives rather than away working 2-3 jobs to provide the life I’ve envisioned for my family.</p>
                     <p>I found A boot camp held by Virginia Tech which was powered by Full Stack Academy and signed up right away. The boot camp was 100% remote.  </p>
                     <p>Check out my work under the Projects Tab!</p>
                 </div>

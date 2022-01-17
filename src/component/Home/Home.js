@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import './style.css'
+import React from 'react';
+import './homeStyle.css'
 import MyPic from './MyPic'
  
 const Home = () => {
