@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div className="home">
             <div className="job">
-               Junior Web Developer
+               Full Stack Web Developer
             </div>
             <MyPic animDuration={1} />
             <div className='quote'>
