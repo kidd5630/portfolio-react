@@ -9,7 +9,7 @@ const Home = () => {
             <div className="job">
                Junior Web Developer
             </div>
-            <MyPic animDuration={2} />
+            <MyPic animDuration={1} />
             <div className='quote'>
                .... I never claimed to be a designer ...
             </div>
