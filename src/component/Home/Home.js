@@ -1,16 +1,17 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './style.css'
-import pic from './me.jpg'
-
+import MyPic from './MyPic'
+ 
 const Home = () => {
+
     return (
         <div className="home">
             <div className="job">
-               Freelance Web Developer
+               Junior Web Developer
             </div>
-            <img src={pic} width='300' />
+            <MyPic animDuration={2} />
             <div className='quote'>
-               .... I didn't claim to be a designer ...
+               .... I never claimed to be a designer ...
             </div>
         </div>
     )

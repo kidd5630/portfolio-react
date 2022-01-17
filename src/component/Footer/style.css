@@ -3,3 +3,16 @@
 	padding:0;
 	box-sizing: border-box;
 } 
+.footer{
+	display: flex;
+	justify-content: space-around;
+	justify-self: center;
+	height: 10vh;
+	width: 50%;
+	position: sticky;
+}
+
+.css-xziec2-MuiSvgIcon-root{
+	color: black;
+}
+

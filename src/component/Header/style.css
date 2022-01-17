@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Rubik+Beastly&display=swap');
 * { 
 	margin:0;
 	padding:0;
@@ -6,29 +8,48 @@
 .header{
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
-    padding-left:5px;
-    padding-right: 5px;
-    background-color: aliceblue;
+    align-items: flex-start;
+    padding-left:10px;
+    padding-right: 10px;
+    height: 10vh;
+    color: black;
+    font-family: 'Neonderthaw', cursive;
 }
 .name{
     display: inline-flex;
-    font-size: xx-large;
+    font-size: 3.5em;
 }
 .navSection{
     display: flex;
     flex-direction: row;
-    align-items: baseline;
+    /* align-items: baseline; */
+    font-size: 2em;
 }
 .navBtn {
     display: inline;
-    font-size: x-large;
     color: black;
+
+}
+#link{
+    font-family: 'Libre Baskerville', serif;
 }
 .link{
-    text-decoration: black underline;
+    text-decoration: none;
+    background-color: antiquewhite;
+    color: black;
+    font-family: 'Libre Baskerville', serif;
 }
 .link:first-child,
 .link:nth-child(2){
     padding-right: 40px;
 }
+#menuBtn{
+    background-color: black;
+    color: antiquewhite;
+    font-family: 'Libre Baskerville', serif;
+}
+ul{
+    background-color: antiquewhite;
+}
+
+/* background-color: antiquewhite; */

@@ -3,3 +3,9 @@
 	padding:0;
 	box-sizing: border-box;
 } 
+.app{
+	display: grid;
+  	grid-template-rows: repeat(3, 1fr);
+	background-color: antiquewhite;
+	height: 100vh;
+}
