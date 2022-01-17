@@ -75,7 +75,7 @@ export default function CustomizedMenus() {
 
 
   return (
-    <div>
+    <div id='dropDown'>
       <Button
         id="menuBtn"
         aria-controls={open ? 'demo-customized-menu' : undefined}
@@ -85,7 +85,6 @@ export default function CustomizedMenus() {
         disableElevation
         onClick={handleClick}
         endIcon={<KeyboardArrowDownIcon />}
-        sx= {{background:"black"}}
       >
         Check Me Out
       </Button>

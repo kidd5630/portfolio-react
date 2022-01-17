@@ -8,7 +8,7 @@
 .header{
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: baseline;
     padding-left:10px;
     padding-right: 10px;
     height: 10vh;
@@ -22,13 +22,11 @@
 .navSection{
     display: flex;
     flex-direction: row;
-    /* align-items: baseline; */
+    align-items: center;
     font-size: 2em;
 }
 .navBtn {
     display: inline;
-    color: black;
-
 }
 #link{
     font-family: 'Libre Baskerville', serif;
@@ -44,12 +42,15 @@
     padding-right: 40px;
 }
 #menuBtn{
+    display: flex;
     background-color: black;
     color: antiquewhite;
     font-family: 'Libre Baskerville', serif;
+    height: 4em;
 }
 ul{
     background-color: antiquewhite;
 }
+
 
 /* background-color: antiquewhite; */

@@ -1,5 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Rubik+Beastly&display=swap');
 * { 
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
-} 
+}
+.about{
+	display: flex;
+	flex-direction: row;
+	height: 80vh;
+	background-color: antiquewhite;
+	color: black;
+	padding: 10px;
+	font-family: 'Libre Baskerville', serif;
+}
+.aboutPictureL{
+	height: 300px;
+	border-radius: 10%;
+	box-shadow: 10px 5px 20px black;
+}
+.aboutPictureR{
+	height: 250px;
+	width: 350px;
+	border-radius: 10%;
+	box-shadow: 10px 5px 20px black;
+}
+.left{
+	display: flex;
+	justify-content: center;
+	padding: 2rem;
+
+}
+.right{
+	display: flex;
+	justify-content: center;
+	padding: 2rem;
+}
+.title{
+	justify-self: center;
+	align-self: center;
+	padding: 2rem;
+}
+.personal{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	
+}
+.professional{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
