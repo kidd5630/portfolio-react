@@ -14,13 +14,16 @@
 	font-family: 'Libre Baskerville', serif;
 }
 .aboutPictureL{
-	height: 300px;
+	height: auto;
+	max-width: 100%;
+	width: 15vw;
 	border-radius: 10%;
 	box-shadow: 10px 5px 20px black;
 }
 .aboutPictureR{
-	height: 250px;
-	width: 350px;
+	height: auto;
+	max-width: 100%;
+	width: 20vw;
 	border-radius: 10%;
 	box-shadow: 10px 5px 20px black;
 }
@@ -28,7 +31,6 @@
 	display: flex;
 	justify-content: center;
 	padding: 2rem;
-
 }
 .right{
 	display: flex;
@@ -43,14 +45,14 @@
 .personal{
 	display: flex;
 	flex-direction: column;
-	width: 50%;
+	width: 49vw;
 	padding-right: 10px;
 	
 }
 .professional{
 	display: flex;
 	flex-direction: column;
-	width: 50%;
+	width: 45vw;
 	padding-left: 10px;
 }
 p.info{

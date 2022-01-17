@@ -30,6 +30,7 @@
 .projectTitle{
 	text-decoration-line: underline;
   	text-decoration-style: double;
+	width: 10vw;
 }
 .portfolio-title{
 	align-self: center;
@@ -39,7 +40,7 @@
 }
 .photo{
 	height: 150px;
-	width: 200px;
+	width: 15vw;
 	border-radius: 10%;
 }
 .box{
@@ -57,4 +58,5 @@ p.info{
 	flex-direction: column;
 	padding-right: 10px;
 	padding-left: 10px;
+	width: 70vw;
 }
