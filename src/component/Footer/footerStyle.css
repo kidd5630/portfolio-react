@@ -1,5 +1,5 @@
 @media only screen and (max-width: 600px){ /* Mobile */
-	* { 
+* { 
 		margin:0;
 		padding:0;
 		box-sizing: border-box;
@@ -8,18 +8,21 @@
 		display: flex;
 		justify-content: space-around;
 		justify-self: center;
+		height: 10vh;
 		width: 50%;
 		position:sticky;
-		padding:25px;
 	}
-		
+	
+	.css-xziec2-MuiSvgIcon-root, .footer{
+		color: black;
+	}
+	
 	a:visited {
 		color: black;
 	  }
 	  svg{
 		  color: black;
 	  }
-	  
 }
 @media only screen and (min-width: 601px){ /* Windows/Mac */
 	* { 
@@ -48,6 +51,3 @@
 	  }
 }
 
-
-
-/* MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-xziec2-MuiSvgIcon-root */
