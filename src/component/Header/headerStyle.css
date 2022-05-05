@@ -1,56 +1,118 @@
 @import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Rubik+Beastly&display=swap');
-* { 
-	margin:0;
-	padding:0;
-	box-sizing: border-box;
-} 
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    padding-left:10px;
-    padding-right: 10px;
-    height: 10vh;
-    color: black;
-    font-family: 'Neonderthaw', cursive;
+
+@media only screen and (max-width: 600px){ /* Mobile */
+    * { 
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        border-radius: 1px solid red;
+    } 
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding-left:10px;
+        padding-right: 10px;
+        height: 10vh;
+        color: black;
+        font-family: 'Neonderthaw', cursive;
+    }
+    .name{
+        display: inline-flex;
+        font-size: 1.75em;
+    }
+    .navSection{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 2em;
+    }
+    .navBtn {
+        display: inline;
+    }
+    #link{
+        font-family: 'Libre Baskerville', serif;
+    }
+    .link{
+        text-decoration: none;
+        background-color: antiquewhite;
+        color: black;
+        font-family: 'Libre Baskerville', serif;
+    }
+    .link:first-child,
+    .link:nth-child(2){
+        padding-right: 40px;
+    }
+    #menuBtn{
+        display: flex;
+        background-color: black;
+        color: antiquewhite;
+        font-family: 'Libre Baskerville', serif;
+        height: 2.25em;
+        width: auto;    
+    }
+    ul{
+        background-color: antiquewhite;
+    }
 }
-.name{
-    display: inline-flex;
-    font-size: 3.5em;
+
+@media only screen and (min-width: 601px){ /* Windows/Mac */
+    * { 
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    } 
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding-left:10px;
+        padding-right: 10px;
+        height: 10vh;
+        color: black;
+        font-family: 'Neonderthaw', cursive;
+    }
+    .name{
+        display: inline-flex;
+        font-size: 3.5em;
+    }
+    .navSection{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 2em;
+    }
+    .navBtn {
+        display: inline;
+    }
+    #link{
+        font-family: 'Libre Baskerville', serif;
+    }
+    .link{
+        text-decoration: none;
+        background-color: antiquewhite;
+        color: black;
+        font-family: 'Libre Baskerville', serif;
+    }
+    .link:first-child,
+    .link:nth-child(2){
+        padding-right: 40px;
+    }
+    #menuBtn{
+        display: flex;
+        background-color: black;
+        color: antiquewhite;
+        font-family: 'Libre Baskerville', serif;
+        height: 4em;
+    }
+    ul{
+        background-color: antiquewhite;
+    }
 }
-.navSection{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-size: 2em;
-}
-.navBtn {
-    display: inline;
-}
-#link{
-    font-family: 'Libre Baskerville', serif;
-}
-.link{
-    text-decoration: none;
-    background-color: antiquewhite;
-    color: black;
-    font-family: 'Libre Baskerville', serif;
-}
-.link:first-child,
-.link:nth-child(2){
-    padding-right: 40px;
-}
-#menuBtn{
-    display: flex;
-    background-color: black;
-    color: antiquewhite;
-    font-family: 'Libre Baskerville', serif;
-    height: 4em;
-}
-ul{
-    background-color: antiquewhite;
-}
+
+
+
 
 
 /* background-color: antiquewhite; */
