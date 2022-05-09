@@ -19,14 +19,14 @@
 	.aboutPictureL{
 		height: auto;
 		max-width: 100%;
-		width: 15vw;
+		width: 80vw;
 		border-radius: 10%;
 		box-shadow: 10px 5px 20px black;
 	}
 	.aboutPictureR{
-		height: auto;
-		max-width: 100%;
-		width: 20vw;
+		height: 20vh;
+		max-width: 150%;
+		width: 120vw;
 		border-radius: 10%;
 		box-shadow: 10px 5px 20px black;
 	}

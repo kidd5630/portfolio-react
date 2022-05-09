@@ -6,12 +6,11 @@
         margin:0;
         padding:0;
         box-sizing: border-box;
-        border-radius: 1px solid red;
     } 
     .header{
         display: flex;
         justify-content: space-between;
-        align-items: baseline;
+        align-items: center;
         padding-left:10px;
         padding-right: 10px;
         height: 10vh;
@@ -20,13 +19,13 @@
     }
     .name{
         display: inline-flex;
-        font-size: 1.75em;
+        font-size: 2em;
     }
     .navSection{
         display: flex;
         flex-direction: row;
         align-items: center;
-        font-size: 2em;
+        font-size: 1em;
     }
     .navBtn {
         display: inline;
@@ -46,10 +45,12 @@
     }
     #menuBtn{
         display: flex;
+        justify-content: baseline;
         background-color: black;
         color: antiquewhite;
+        font-size: .70em;
         font-family: 'Libre Baskerville', serif;
-        height: 2.25em;
+        height: 3.15em;
         width: auto;    
     }
     ul{

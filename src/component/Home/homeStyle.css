@@ -29,7 +29,9 @@
 		box-shadow: 10px 5px 20px black;
 	}
 	.quote{
-		font-size: 1.65em;
+		display: flex;
+		font-size: 1.60em;
+		padding-bottom: 10px;
 	}
 }
 @media only screen and (min-width: 601px){ /* Windows/Mac */

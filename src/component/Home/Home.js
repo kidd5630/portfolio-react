@@ -10,7 +10,7 @@ const Home = () => {
                Full Stack Web Developer
             </div>
             <MyPic animDuration={1} />
-            <div className='quote'>
+            <div className="quote">
                .... I never claimed to be a designer ...
             </div>
         </div>
