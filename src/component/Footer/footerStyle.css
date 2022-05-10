@@ -9,13 +9,9 @@
 		justify-content: space-around;
 		justify-self: center;
 		width: 50%;
+		height: fit-content;
 		position:sticky;
 	}
-	
-	.css-xziec2-MuiSvgIcon-root, .footer{
-		color: black;
-	}
-	
 	a:visited {
 		color: black;
 	  }
