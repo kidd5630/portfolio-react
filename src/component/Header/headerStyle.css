@@ -71,12 +71,12 @@
         padding-left:10px;
         padding-right: 10px;
         height: 10vh;
-        color: black;
+        color: antiquewhite;
         font-family: 'Neonderthaw', cursive;
     }
     .name{
         display: inline-flex;
-        font-size: 3.5em;
+        font-size: 4em;
     }
     .navSection{
         display: flex;
@@ -111,9 +111,3 @@
         background-color: antiquewhite;
     }
 }
-
-
-
-
-
-/* background-color: antiquewhite; */
