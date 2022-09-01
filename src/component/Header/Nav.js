@@ -10,6 +10,7 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 const StyledMenu = styled((props) => (
   <Menu
     elevation={0}
+    style={{background: 'none'}}
     anchorOrigin={{
       vertical: 'bottom',
       horizontal: 'right',
@@ -84,7 +85,7 @@ export default function CustomizedMenus() {
         variant="contained"
         disableElevation
         onClick={handleClick}
-        endIcon={<KeyboardArrowDownIcon />}
+        endIcon={<KeyboardArrowDownIcon style={{color: 'antiquewhite'}}/>}
       >
         Check Me Out
       </Button>
@@ -96,17 +97,19 @@ export default function CustomizedMenus() {
         anchorEl={anchorEl}
         open={open}
         onClose={handleClose}
+        style={{backgroundColor: 'none'}}
       >
-        <MenuItem id="link"onClick={handleHome} disableRipple>
+        <MenuItem id="link"onClick={handleHome} disableRipple style={{background: 'none'}}>
           Home
         </MenuItem>
-        <MenuItem id="link"onClick={handleAbout} disableRipple>
+        <MenuItem id="link"onClick={handleAbout} disableRipple style={{background: 'none'}}>
           About Me
         </MenuItem>
-        <MenuItem id="link"onClick={handleProjects} disableRipple>
+        <MenuItem id="link"onClick={handleProjects} disableRipple style={{background: 'none'}}>
           Projects
         </MenuItem>
       </StyledMenu>
     </div>
   );
 }
+

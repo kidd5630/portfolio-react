@@ -13,10 +13,10 @@
 		position:sticky;
 	}
 	a:visited {
-		color: black;
+		color: navy;
 	  }
 	  svg{
-		  color: black;
+		  color: navy;
 	  }
 }
 @media only screen and (min-width: 601px){ /* Windows/Mac */
@@ -34,15 +34,12 @@
 		position:sticky;
 	}
 	
-	.css-xziec2-MuiSvgIcon-root, .footer{
-		color: black;
-	}
-	
 	a:visited {
-		color: black;
+		color: navy;
 	  }
 	  svg{
-		  color: black;
+		  color: navy;
+		  filter: drop-shadow(3px 4px 2px  #F8F8F8);
 	  }
 }
 

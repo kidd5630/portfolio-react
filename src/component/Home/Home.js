@@ -11,7 +11,7 @@ const Home = () => {
             </div>
             <MyPic animDuration={1} />
             <div className="quote">
-               .... I never claimed to be a designer ...
+              Father, Husband, Friend, Dev
             </div>
         </div>
     )

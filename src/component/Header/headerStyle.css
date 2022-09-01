@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Rubik+Beastly&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Libre+Baskerville:ital@1&family=Rubik+Beastly&display=swap');
 @media only screen and (max-width: 600px){ /* Mobile */
     * { 
         margin:0;
@@ -14,7 +14,7 @@
         padding-left:10px;
         padding-right: 10px;
         height: 10vh;
-        color: black;
+        color: antiquewhite;
         font-family: 'Neonderthaw', cursive;
     }
     .name{
@@ -32,21 +32,13 @@
     }
     #link{
         font-family: 'Libre Baskerville', serif;
+        border-bottom: 1px solid white;
     }
-    .link{
-        text-decoration: none;
-        background-color: antiquewhite;
-        color: black;
-        font-family: 'Libre Baskerville', serif;
-    }
-    .link:first-child,
-    .link:nth-child(2){
-        padding-right: 40px;
-    }
+
     #menuBtn{
         display: flex;
         justify-content: baseline;
-        background-color: black;
+        background: none;
         color: antiquewhite;
         font-size: .70em;
         font-family: 'Libre Baskerville', serif;
@@ -72,11 +64,15 @@
         padding-right: 10px;
         height: 10vh;
         color: antiquewhite;
-        font-family: 'Neonderthaw', cursive;
+        font-family: 'Kalam', cursive;
     }
     .name{
         display: inline-flex;
         font-size: 4em;
+        color: navy;
+		font-weight: bolder;
+		text-shadow: 0px 2px 4px #F8F8F8;
+		-webkit-text-stroke: .1px #F8F8F8;
     }
     .navSection{
         display: flex;
@@ -89,25 +85,23 @@
     }
     #link{
         font-family: 'Libre Baskerville', serif;
+        border-bottom: 1px solid white;
     }
-    .link{
-        text-decoration: none;
-        background-color: antiquewhite;
-        color: black;
-        font-family: 'Libre Baskerville', serif;
-    }
-    .link:first-child,
-    .link:nth-child(2){
-        padding-right: 40px;
-    }
+
     #menuBtn{
         display: flex;
-        background-color: black;
+        background: none;
         color: antiquewhite;
-        font-family: 'Libre Baskerville', serif;
         height: 4em;
+        font-size: 30px;
+        color: navy;
+		font-weight: bolder;
+		text-shadow: 0px 2px 4px #F8F8F8;
+		-webkit-text-stroke: .1px #F8F8F8;
+        font-family: 'Kalam', cursive;
     }
     ul{
         background-color: antiquewhite;
+    
     }
 }

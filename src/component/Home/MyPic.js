@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import './homeStyle.css'
-import pic1 from './pictures/1.jpg'
-import pic2 from './pictures/2.jpg'
-import pic3 from './pictures/3.jpg'
-import pic4 from './pictures/4.jpg'
+import pic1 from './pictures/1.png'
+import pic2 from './pictures/2.png'
+import pic3 from './pictures/3.png'
+
 
 class MyPic extends Component {
   constructor(props) {
     super(props);
-    this.photos = [pic1, pic2, pic3, pic4]
+    this.photos = [pic1, pic2, pic3]
     this.state = { photoIndex: 0 }
     this.changePhoto = this.changePhoto.bind(this)
   }
