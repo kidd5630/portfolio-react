@@ -11,7 +11,7 @@ const Home = () => {
             </div>
             <MyPic animDuration={1} />
             <div className="quote">
-              Father, Husband, Friend, Dev
+              Father, Husband, Friend, Developer
             </div>
         </div>
     )
