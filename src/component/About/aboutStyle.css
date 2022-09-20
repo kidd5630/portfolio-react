@@ -14,8 +14,6 @@
 		font-family: 'Libre Baskerville', serif;
 		color: #F8F8F8;
 		font-weight: bolder;
-		-webkit-text-stroke: .1px navy;
-		font-weight: bolder;
 		font-size: x-large;
 		justify-content: space-around;
 	}
@@ -72,9 +70,7 @@
 		background: none;
 		padding: 10px;
 		font-family: 'Libre Baskerville', serif;
-		color: navy;
-		font-weight: bolder;
-		-webkit-text-stroke: .1px #F8F8F8;
+		color: #F8F8F8;
 		font-weight: bolder;
 		font-size: x-large;
 		justify-content: space-around;
