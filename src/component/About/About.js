@@ -16,7 +16,7 @@ const About = () => {
                     </p>
                 </div>
             </div>
-            <div className="pictures">
+            <div className="picturesSection">
                <FamPic animDuration={1.5} />
             </div>
         </div>
