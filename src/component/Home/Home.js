@@ -10,9 +10,6 @@ const Home = () => {
                Full Stack Web Developer
             </div>
             <MyPic animDuration={1} />
-            <div className="quote">
-              Father, Husband, Friend, Developer
-            </div>
         </div>
     )
 }

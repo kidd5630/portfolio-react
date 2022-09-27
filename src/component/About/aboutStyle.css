@@ -12,10 +12,11 @@
 		height: 80vh;
 		background: none;
 		font-family: 'Libre Baskerville', serif;
-		color: #F8F8F8;
+		color: navy;
 		font-weight: bolder;
 		font-size: x-large;
 		justify-content: space-around;
+		text-shadow: 0px 2px 4px #F8F8F8;
 	}
 
 	.title{
@@ -54,7 +55,12 @@
 	display: none;
   }
 }
-
+.emailLink{
+	font-family: 'Libre Baskerville', serif;
+	color: #F8F8F8;
+	font-weight: bolder;
+	font-size: x-large;
+}
 
 @media only screen and (min-width: 601px){ /* Windows/Mac */
 	* { 

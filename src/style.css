@@ -12,7 +12,7 @@
 	.app{
 		display: grid;
 		grid-template-rows: repeat(3, 1fr);
-		background-image: url("https://a.cdn-hotels.com/gdcs/production110/d858/12affaa4-8ec2-4d5e-985b-15d5cb9fb809.jpg?impolicy=fcrop&w=800&h=533&q=medium");
+		background-image: url(https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_859/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/w47ijjxy5so4qaxmfi6y/KeramaTokashikiIslandSwimming,Snorkeling,andTurtle-FindingExperienceinOkinawa.webp);
 		background-repeat: no-repeat;
 		background-attachment: fixed;
   		background-position: center;

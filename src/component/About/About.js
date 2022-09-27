@@ -8,12 +8,27 @@ const About = () => {
             <div className="aboutMe">
                 <h2 className='title' >About Chuck</h2>
                 <div className='facts'>
-                    <p>I guess the first thing to know about me is I am a family man first. </p>
-                    <p>I am a 33 year old Veteran and I spent 4 years in the United States Air Force as an Electric and Environmental technician on F-16s.</p> 
-                    <p>I recently discovered that I love wood-working, and enjoy building things around the house. I attend Youtube academy for home repairs!!</p>
-                    <p>Some of my favorite hobbies include building: Legos, kayaking, crafting with my family, hiking and watching movies</p>
-                    <p>For a long time I had been trying to find what it was I wanted to do for the 'rest of my life' and I just couldn't find what I was passionate about. In November of 2020 I was diagnosed with Covid. While I was in quarantine I decided to enroll in freeCodeCamp.org and see if software development was something that called to me. I fell in love INSTANTLY. I started doing some research into bootcamps and the next thing I knew I applied to the Web Development boot camp at Virginia Tech, Powered by FullStack Academy. After a very intense and informative 6 months, I graduated the boot camp and earned my certificate in Web Development. I decided to continue my education at freeCodeCamp and earned a certificate in responsive web design. My love for software development continues to grow, and now I am enrolled with Strayer University, pursuing my Bachelor's Degree in Computer Science. I am projected to graduate in 2023!
-                    </p>
+                <p>A little about me....<br></br>
+                I am a family-first guy and proud veteran with 4 years of service United States Air Force 
+                as an Electric and Environmental Technician on F-16s.
+                Over the past few years, I have been searching for the profession that balances my love of
+                tech and creating solutions.<br></br>
+                Covid and quarantine ironically provided me with some 
+                extra time and I took the opportunity to explore software development through 
+                freeCodeCamp. 
+                I fell deeply in (technical) love INSTANTLY. 
+                My next step was researching more formal educational programs that would build upon 
+                my initial learning.  I chose to apply and commit the next 6 months to an intensive 
+                coding bootcamp at Virginia Tech powered by Fullstack Academy of Code. 
+                In 2022, I earned my Certificate in Web Development and added another Certificate in 
+                Responsive Web Design through freeCodeCamp.
+                I am proud to announce I am pursuing my Bachelor's Degree in Computer Science 
+                through Strayer University with a projected graduation date in 2023.
+                Outside of my professional aspirations I have discovered a love for wood-working, and 
+                enjoy building things around the house. I attend YouTube academy for home repairs!  
+                Additional hobbies include building Legos, kayaking, crafting with my family, hiking and 
+                watching movies.
+                Please <a className="emailLink" href="mailto:charles.d.suitt@gmail.com">drop me a line</a> to chat more!</p>
                 </div>
             </div>
             <div className="picturesSection">
