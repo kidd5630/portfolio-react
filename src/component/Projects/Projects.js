@@ -9,11 +9,12 @@ const Projects = () => {
         <div className="projects">
             <h2 class = "portfolio-title">Just a few samples...</h2>
             <div class= "projectList">
-            <div class = "project">
+                <div class = "project">
                     <h3 class = "projectTitle">McLovin’s Scented Lair</h3>
                     <div className='content'>
                         <p className="description">Description: E-commerce website, built with 4 co-developers. using React framework, where the user can have a cozy, friendly experience and register/login, view all 
-                        products, add to cart and checkout (logged in or not).</p>
+                        products, add to cart and checkout (logged in or not).
+                        </p>
                         <p className='indent'>Front-end: <a href="https://mclovins.netlify.app/" target="blank">Take a look here!</a></p>
                         <p className='indent'>Back-end: Backend: E-commerce website with a functional database and 
                         API with role middleware authorization, user registration/login with 
@@ -22,12 +23,12 @@ const Projects = () => {
                         </p>
                         <p class = "description">Technologies: PostgreSQL, Express, React, JavaScript, Node, Axios, CSS(viz. Material-UI)</p>
                         <p class = "description"><a href="https://github.com/kidd5630/McLovins-Frontend" target="blank">Here's the Github Link</a></p>
-                    
-                    <a className='box' href="https://mclovins.netlify.app/" target="blank">
+                    </div>
+                        <a className='box' href="https://mclovins.netlify.app/" target="blank">
                         <p className='info'>Click to check it out</p>
                         <img src={pic3} alt = "picture of homepage for McLovin’s Scented Lair" class="photo"/>
                     </a>
-                    </div>
+                
                 </div>
                 <div class = "project">
                     <h3 class = "projectTitle">Strangers Things </h3>

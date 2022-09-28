@@ -83,11 +83,6 @@
 		text-shadow: 0px 2px 4px #F8F8F8;
 	}
 
-	/* color: navy;
-		font-weight: bolder;
-		font-size: x-large;
-		justify-content: space-around;
-		text-shadow: 0px 2px 4px #F8F8F8; */
 	.content{
 		display: flex;
 		flex-direction: column;
@@ -113,14 +108,19 @@
 		font-family: 'Libre Baskerville', serif;
 		color: #F8F8F8;
 		font-weight: bolder;
-		font-size: large;
+		text-shadow: 1px 2px 4px black;
+		font-size: 1.25em;
 	}
 	.projectList{
 		display: flex;
 		height: 90vh;
 		flex-direction: column;
 		justify-content: space-around;
+		overflow: scroll;
 	}
+	.projectList::-webkit-scrollbar {
+		display: none;
+	  }
 	
 	.project{
 		align-content: flex-start;
@@ -164,7 +164,7 @@
 	a:visited{
 		font-family: 'Libre Baskerville', serif;
 		color: #F8F8F8;
-		-webkit-text-stroke: .1px navy;
+		text-shadow: 1px 2px 4px black;
 		font-weight: bolder;
 		font-size: x-large;
 	}
@@ -174,5 +174,11 @@
 		padding-right: 10px;
 		padding-left: 10px;
 		width: 70vw;
+		overflow: scroll;
 	}
+	.content::-webkit-scrollbar {
+		display: none;
+	  }
 }
+
+
