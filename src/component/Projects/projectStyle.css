@@ -11,8 +11,7 @@
 		flex-direction: column;
 		height: 80vh;
 		font-family: 'Libre Baskerville', serif;
-		color: navy;
-		text-shadow: 0px 2px 4px #F8F8F8;
+		color: #F8F8F8;
 		font-weight: bolder;
 		font-size: large;
 		width: 100%;
@@ -52,6 +51,7 @@
 		justify-content: space-around;
 		align-items: center;
 		align-self: center;
+		background-color: rgba(39, 10, 205, 0.5);
 	}
 	.portfolio-title{
 		align-self: center;
@@ -71,16 +71,17 @@
 	p.info{
 		justify-self: center;
 		align-self: center;
+		background-color: rgba(39, 10, 205, 0.5);
+		color: #F8F8F8;
 	}
 	p.indent{
 		text-indent: 50px;
 	}
 	a, a:visited{
 		font-family: 'Libre Baskerville', serif;
-		color: navy;
+		color: #F8F8F8;
 		font-weight: bolder;
 		font-size: large;
-		text-shadow: 0px 2px 4px #F8F8F8;
 	}
 
 	.content{
@@ -89,6 +90,7 @@
 		padding-right: 10px;
 		padding-left: 10px;
 		width: 100%;
+		background-color: rgba(39, 10, 205, 0.5);
 	}
 	li{
 		background: none;
@@ -138,8 +140,9 @@
 	}
 	.projectTitle{
 		text-decoration-line: underline;
-		  text-decoration-style: double;
+		text-decoration-style: double;
 		width: 10vw;
+		background-color: rgba(0, 0, 0, 0.611);
 	}
 	.portfolio-title{
 		align-self: center;
@@ -175,6 +178,7 @@
 		padding-left: 10px;
 		width: 70vw;
 		overflow: scroll;
+		background-color: rgba(0, 0, 0, 0.7);
 	}
 	.content::-webkit-scrollbar {
 		display: none;

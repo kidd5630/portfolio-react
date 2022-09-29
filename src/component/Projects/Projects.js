@@ -22,7 +22,6 @@ const Projects = () => {
                         Morgan, jsonwebtoken, and more.
                         </p>
                         <p class = "description">Technologies: PostgreSQL, Express, React, JavaScript, Node, Axios, CSS(viz. Material-UI)</p>
-                        <p class = "description"><a href="https://github.com/kidd5630/McLovins-Frontend" target="blank">Here's the Github Link</a></p>
                     </div>
                         <a className='box' href="https://mclovins.netlify.app/" target="blank">
                         <p className='info'>Click to check it out</p>
@@ -39,7 +38,6 @@ const Projects = () => {
                         <p className='indent'>Users can also message others and interact.To promote user activity, login & registration required for interactivity.</p>
                         <p className='indent'>React used to build out website and respond to data changes.</p>
                         <p class = "description">Technologies: React, JavaScript, Postman, Axios, CSS(viz. Styled Components)</p>
-                        <p class = "description"><a href="https://github.com/kidd5630/strangersthings" target="blank">Here's the Github Link</a></p>
                     </div>
                     <a className='box' href="https://shop-strangers-things.netlify.app" target="blank">
                         <p className='info'>Click to check it out</p>
@@ -51,7 +49,6 @@ const Projects = () => {
                     <div className='content'>
                         <p class = "description">A frontend fitness tracker application, using React framework, where the user can track exercises and routines, as well as, see other user activities. The front-end project was built within 2 week with another fellow developer. Backend can be shown upon request. </p>
                         <p class = "description">Technologies: PostgreSQL, Express, React, JavaScript, Node, Axios, CSS(viz. Material-UI)</p>
-                        <p class = "description"><a href="https://github.com/kidd5630/FrontEndTracker" target="blank">Here's the Github Link</a></p>
                     </div>
                     <a className='box' href="https://fitness-tracker1.netlify.app" target="blank">
                         <p className='info'>Click to check it out</p>
